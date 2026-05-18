@@ -31,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} bg-vip-cream text-vip-ink antialiased`}>
+       <div style={{background:"#1a472a", color:"white", padding:"6px", textAlign:"center", fontSize:"14px"}}>🚧 This site is designed and developed by Hakeem Sabri — Work in Progress</div>
         {children}
       </body>
     </html>
