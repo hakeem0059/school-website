@@ -617,7 +617,12 @@ function SectionHeading({
 
 function Logo() {
   return (
-    <img src="/logo1.png" alt="VIP School Logo" className="h-12 w-auto max-w-[200px]" />
+    <span className="relative inline-flex h-10 w-10 items-center justify-center rounded-xl bg-vip-emerald text-vip-gold shadow-soft">
+      <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M12 3 3 7v10l9 4 9-4V7l-9-4Z" />
+        <path d="M7 11.5c2 2 8 2 10 0" strokeLinecap="round" />
+      </svg>
+    </span>
   );
 }
 function Arrow() {
