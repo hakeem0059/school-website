@@ -193,7 +193,7 @@ function Hero() {
             <span className="h-1.5 w-1.5 rounded-full bg-vip-gold animate-pulse" />
             Admissions Open · Limited Seats
           </div>
-         <img src="/logo1.png" alt="VIP School Logo" className="mb-12 h-22 w-auto" />
+         <img src="/logo1.png" alt="VIP School Logo" className="mb-12 h-14 w-auto" />
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05]">
             The VIP School{" "}
             <span className="text-vip-goldSoft">of Excellence</span>
