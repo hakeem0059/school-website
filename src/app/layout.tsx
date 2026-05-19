@@ -29,7 +29,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+   <html lang="en" className="scroll-smooth">
+      <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5G0BNVLB12"></script>
+        <script dangerouslySetInnerHTML={{__html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5G0BNVLB12');
+        `}} />
+      </head>
       <body className={`${inter.className} bg-vip-cream text-vip-ink antialiased`}>
        <div style={{background:"#1a472a", color:"white", padding:"6px", fontSize:"14px", overflow:"hidden", whiteSpace:"nowrap"}}>
   <span style={{display:"inline-block", animation:"ticker 15s linear infinite"}}>
