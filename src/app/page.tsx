@@ -617,7 +617,7 @@ function SectionHeading({
 
 function Logo() {
   return (
-    <img src="/logo1.png" alt="VIP School Logo" className="h-20 w-auto" />
+    <img src="/logo1.png" alt="VIP School Logo" className="h-12 w-auto max-w-[200px]" />
   );
 }
 function Arrow() {
