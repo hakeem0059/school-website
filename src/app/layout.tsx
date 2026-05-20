@@ -42,7 +42,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-vip-cream text-vip-ink antialiased`}>
        <div style={{background:"#1a472a", color:"white", padding:"6px", fontSize:"14px", overflow:"hidden", whiteSpace:"nowrap"}}>
   <span style={{display:"inline-block", animation:"ticker 15s linear infinite"}}>
-    &nbsp;&nbsp;&nbsp;🚧 This site is Work in Progress &nbsp;&nbsp;&nbsp;🚧 This site is designed and developed by Hakeem Sabri — Work in Progress
+    &nbsp;&nbsp;&nbsp;🚧 This site is Work in Progress &nbsp;&nbsp;&nbsp;🚧 This site is Work in Progress
   </span>
   <style>{`@keyframes ticker { from { transform: translateX(100%); } to { transform: translateX(-100%); } }`}</style>
 </div>
